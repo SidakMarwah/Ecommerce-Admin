@@ -1,6 +1,6 @@
 # Ecommerce Admin Panel
 
-![Ecommerce Admin Panel](https://your-image-url.com)
+![Ecommerce Admin Panel](\public\assets\screenshots\dashboard.png)
 
 This project is an admin panel for managing an eCommerce store. It allows you to:
 
