@@ -37,23 +37,23 @@ const Dashboard = () => {
 	return (
 		<div className="mx-auto px-4">
 			<h1 className="text-4xl font-bold text-center my-8">Admin Dashboard</h1>
-			<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+			<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 				{/* Total Revenue */}
 				<div className="border-4 border-gray-400 shadow rounded-lg p-6">
 					<h2 className="text-2xl font-semibold">Total Revenue</h2>
-					<p className="text-4xl font-bold mt-4">₹{totalRevenue.toFixed(2)}</p>
+					<p className="text-3xl font-bold mt-4">₹{totalRevenue.toFixed(2)}</p>
 				</div>
 
 				{/* Total Orders */}
 				<div className="border-4 border-gray-400 shadow rounded-lg p-6">
 					<h2 className="text-2xl font-semibold">Total Orders</h2>
-					<p className="text-4xl font-bold mt-4">{totalOrders}</p>
+					<p className="text-3xl font-bold mt-4">{totalOrders}</p>
 				</div>
 
 				{/* Unique Customers */}
 				<div className="border-4 border-gray-400 shadow rounded-lg p-6">
 					<h2 className="text-2xl font-semibold">Unique Customers</h2>
-					<p className="text-4xl font-bold mt-4">{uniqueCustomers}</p>
+					<p className="text-3xl font-bold mt-4">{uniqueCustomers}</p>
 				</div>
 			</div>
 		</div>
