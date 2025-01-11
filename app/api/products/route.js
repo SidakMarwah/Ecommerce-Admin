@@ -2,6 +2,7 @@ import { connectToDB } from "@/lib/database";
 import Product from "@/models/Product";
 import { isAdminRequest } from "../auth/[...nextauth]/route";
 import Category from "@/models/Category";
+import { NextResponse } from "next/server";
 
 export const GET = async (request) => {
 
