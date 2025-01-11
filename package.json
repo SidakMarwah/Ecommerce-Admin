@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/mongodb-adapter": "^3.4.1",
+    "@aws-sdk/client-s3": "^3.651.1",
+    "@aws-sdk/lib-storage": "^3.651.1",
+    "axios": "^1.7.3",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.3",
+    "nanoid": "^5.0.7",
+    "next": "14.2.5",
+    "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-sortablejs": "^6.1.4",
+    "react-sweetalert2": "^0.6.0"
   },
   "devDependencies": {
     "postcss": "^8",
